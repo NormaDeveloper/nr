@@ -134,51 +134,38 @@ gap:15px;
 }
 
 
-  .values-list{
+
+
+
+
+  .values-list,
+.quotes-list{
 list-style:none;
-margin-top:10px;
-padding-left:0;
+padding:0;
+margin:25px 0;
 max-width:65ch;
 }
 
-.values-list li{
+.values-list li,
+.quotes-list li{
 position:relative;
 padding-left:22px;
 margin-bottom:16px;
 font-size:19px;
 color:#222;
+line-height:1.7;
 }
 
-.values-list li::before{
-content:"•";
-position:absolute;
-left:0;
-top:0;
-font-size:22px;
-color:#bbb;
-}
-
-.quotes-list{
-list-style:none;
-padding-left:0;
-margin-top:12px;
-}
-
-.quotes-list li{
-position:relative;
-padding-left:22px;
-margin-bottom:10px;
-font-size:18px;
-color:#444;
-font-style:italic;
-}
-
+.values-list li::before,
 .quotes-list li::before{
 content:"—";
 position:absolute;
 left:0;
-color:#bbb;
+color:#888;
+font-weight:500;
 }
+
+  
 
 }
 
@@ -221,8 +208,7 @@ color:#bbb;
 
 <h2>Values</h2>
 
-<ul class="values-list">
-
+ul class="values-list">
 <li><strong>Ethics and responsibility:</strong> I carry out my work rigorously, always ensuring solutions have a positive and sustainable impact.</li>
 
 <li><strong>Curiosity and continuous learning:</strong> always willing to explore with an open mind and a mindset focused on improvement.</li>
@@ -232,22 +218,15 @@ color:#bbb;
 <li><strong>Long-term perspective:</strong> I seek solutions that work today and are sustainable for the future.</li>
 
 <li><strong>Family and putting people first:</strong> my daughters are my driving force and teach me the importance of patience, organization, and empathy. People always come first.</li>
-
 </ul>
-
 
 <p>Some guiding quotes that reflect my philosophy of life and work:</p>
 
 <ul class="quotes-list">
-
 <li>"Vince in bono malum"</li>
-
 <li>"Know yourself"</li>
-
 <li>"Joy and hard work" (Ingvar Kamprad)</li>
-
 <li>"I have no ideology, I have a library" (Arturo Pérez-Reverte)</li>
-
 </ul>
 
   
