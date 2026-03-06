@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
+
 <style>
 
 *{
@@ -27,7 +28,7 @@ body{
 .container{
   max-width:760px;
   margin:auto;
-  text-align:left; /* importante: todo a la izquierda */
+  text-align:left; /* todo a la izquierda */
 }
 
 img{
@@ -108,7 +109,7 @@ footer{
   text-align:center;
 }
 
-/* BULLETS MODERNOS */
+/* BULLETS MODERNOS: BARRA VERTICAL */
 .values-list,
 .quotes-list {
   list-style:none;
@@ -119,8 +120,8 @@ footer{
 
 .values-list li,
 .quotes-list li {
-  position:relative;
-  padding-left:28px; 
+  position: relative;
+  padding-left:20px; /* espacio para la barra */
   margin-bottom:16px;
   font-size:19px;
   color:#222;
@@ -132,11 +133,11 @@ footer{
   content:"";
   position:absolute;
   left:0;
-  top:7px; 
-  width:10px;
-  height:10px;
-  border-radius:50%; 
-  background:#111; 
+  top:0;
+  width:4px;       /* grosor de la barra */
+  height:100%;     /* altura igual al texto */
+  background:#111; /* color de la barra */
+  border-radius:2px;
   transition:0.3s;
 }
 
@@ -170,6 +171,7 @@ footer{
 
 }
 </style>
+  
 </head>
 
 <body>
